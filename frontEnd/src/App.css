@@ -1,0 +1,226 @@
+body{
+  text-decoration: none;
+}
+
+.qots {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:23px;
+    position: sticky;  
+    bottom: 1%;
+    text-align: center;
+}
+
+.bottom_quotes{
+  position: fixed;
+  width: 100%;
+  bottom: 0%;
+}
+.know{
+  height: 5%;
+  width: 5%;
+  filter: contrast(5);
+}
+
+.main{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 9.5%;
+}
+.card{
+  text-align: center;
+  background: transparent;
+  height: 50%;
+}
+
+#videos{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 70%;
+  filter: brightness(40%);
+  filter: blur(9px);
+}
+.main{
+  justify-content: space-evenly;
+}
+
+.card{
+  height: 46%;
+  width: 45%;
+}
+#cardImage{
+  height: 240px;
+  width: 270px;
+}
+#cardImage2,#cardImage3{
+  height: 200px;
+  width: 260px;
+}
+#cardImg{
+  filter: invert(10%);
+}
+.warnspn {
+  font-family: "Marcellus", serif;
+  font-size: larger;
+  color: white;
+}
+#logo{
+  height: 50px;
+  width: 50px;
+}
+.link{
+  text-decoration: none;
+  color: Black;
+}
+
+#cardText{
+  font-size: 19px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h5{
+  color: black;
+  font-style: bold;
+}
+.pages{
+  height: 70%;
+  width: 97%;
+  margin: 1% 1.5%;
+  position: fixed;
+  border-radius: 8px;
+  background-color: rgb(194, 159, 159);
+  opacity: 95%;
+}
+
+#nav{
+  margin-top: 1%;
+}
+
+#signupbtn {
+  width: 130%;
+  color: white;
+  background-color: rgba(0, 3, 37, 0.1);
+}
+
+#signupbtn p {
+  color: white;
+  display: inline;
+}
+
+#signup:hover p {
+  width: max-content;
+  color: #f5a425;
+}
+
+#signup {
+  margin-left: 16%;
+  display: inline-block;
+}
+
+#signup ul li a {
+  width: fit-content;
+}
+
+/* #idcorsel{
+  z-index: 1;
+  height: 10%;
+  width: 70%;
+} */
+
+#crsl{
+  display: inline;
+  height: 30vh;
+  width: 25vw;
+}
+
+.heads {
+  display: inline;
+  height: 100%;
+  margin-left: 35%;
+  font-family: "Marcellus", serif;
+  text-align: center;
+  color: white;
+
+  /* padding: 0 1%; */
+}
+
+.heads span{
+  color: white;
+  text-decoration: none;
+}
+
+.container_nav {
+  /* border: 4px solid blue ; */
+  margin-top: 3%;
+  width: 100%;
+}
+Link{
+  color: Black;
+}
+
+ul,ul li{
+  background: transparent;
+}
+#xyz{
+  color:black;
+  background: transparent;
+}
+
+#auths{
+  color: white;
+}
+
+#logo{
+  text-decoration: none;
+}
+*{
+  text-decoration: none;
+}
+
+
+#larg{
+  font-size: 20px;
+}
+#drys{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+#qw{
+  margin: 12px 0px;
+  height: 90%;
+  width: 80%;
+}
+
+#mnstv{
+  width: 100%;
+  object-fit: cover;
+  height: 85%;
+  border-radius: 5px;
+}
+
+#nmsa{
+  width: 58%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+#opls{
+  width: 58%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+#pops{
+  width: 30%;
+  height: 70%;
+  border-radius: 8px;
+  margin: 5.5% 5.5%;
+}
+.constr
+{
+  border: 3px solid red;
+  margin-left: 20%;
+}
